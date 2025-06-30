@@ -76,7 +76,7 @@ B1B2_LAYER,
 MISL_COMMA,
 };
 
-const uint16_t PROGMEM my_b1b2[] = {MS_BTN1, MS_BTN2, COMBO_END};
+const uint16_t PROGMEM my_b1b2[] = {KC_BTN1, KC_BTN2, COMBO_END};
 const uint16_t PROGMEM my_misl[] = {KC_MINUS, KC_SLASH, COMBO_END};
 
 combo_t key_combos[] = {
