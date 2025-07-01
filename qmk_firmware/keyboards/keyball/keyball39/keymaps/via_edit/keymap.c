@@ -74,13 +74,16 @@ void oledkit_render_info_user(void) {
 enum combos{
 B1B2_LAYER,
 MISL_COMMA,
+COSL_DOT
 };
 
 const uint16_t PROGMEM my_b1b2[] = {KC_BTN1, KC_BTN2, COMBO_END};
 const uint16_t PROGMEM my_misl[] = {KC_MINUS, KC_SLASH, COMBO_END};
+const uint16_t PROGMEM my_cosl[] = {KC_COMMA, KC_SLASH, COMBO_END};
 
 combo_t key_combos[] = {
 [B1B2_LAYER] = COMBO(my_b1b2, MO(3)),
 [MISL_COMMA] = COMBO(my_misl, KC_COMMA),
+[COSL_DOT) = COMBO(my_cosl, KC_DOT),
 };
 #endif
